@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'hello_page.dart';
+// import 'hello_page.dart';
 
 void main() {
   runApp(const MainApp());
@@ -53,10 +53,10 @@ class _MainAppState extends State<MainApp> {
         body: IndexedStack(
           index: selectedIndex,
           children: [
-            PageStorage(
-              child: HomeScreen(),
-              bucket: PageStorageBucket(),
-            ),
+            // PageStorage(
+            // child: HomeScreen(),
+            // bucket: PageStorageBucket(),
+            // ),
             const Placeholder(),
             const Placeholder(),
           ],
